@@ -1,0 +1,292 @@
+
+ body {
+	margin: 0px;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+  margin-left: 0px;
+ }
+ /*  heading */
+ h1 {
+   text-align: center;
+   font-family; 'Helvetica', 'sans-serif' ;
+   color: black;
+   font-size:30px;
+ }
+/*  Navigation bar */
+ nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+/*  Navigation bar */
+nav li {
+display: inline-block;
+margin-left: 70px;
+padding-top: 23px;
+
+position: relative;
+}
+/*  Navigation bar */
+nav a {
+color: #FFDF00;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+}
+nav a:hover {
+color: 	#FFDF00;
+}
+/*  Navigation bar */
+nav a::before {
+content: '';
+display: block;
+height: 5px;
+background-color: #FFDF00;
+
+position: absolute;
+top: 0;
+width: 0%;
+
+transition: all ease-in-out 250ms;
+}
+/*  Navigation bar */
+nav a:hover::before {
+width: 100%;
+}
+
+/*  Navigation bar */
+  .header {
+padding: 30px;
+text-align: center;
+background: white;
+color: white;
+font-size: 30px;
+}
+.headr {
+padding: 30px;
+text-align: center;
+background: white;
+color: white;
+font-size: 30px;
+}
+  .ce_me {
+    color: #093fab;
+   font-style: normal;
+  }
+  .moduil {
+    color: red;
+  }
+  .macnamh {
+    color: #d9c214;
+  }
+  .rann {
+    color: #1477d9;
+  }
+  .crib {
+    color: #10de1d;
+  }
+  .name {
+    margin: 25px auto;
+  }
+  .row {
+  width: 100%;
+  text-align: center;
+  background-image: url(belfast.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .css-typing {
+    text-align: center;
+    padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    Width: 100%;
+}
+.css-typing p {
+  text-align: center;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+  width: 23.08em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 4.75s steps(40, end);
+  animation: type 4.75s steps(40, end);
+ animation-iteration-count: infinite;
+}
+
+@keyframes type {
+ from {
+   width: 0;
+ }
+}
+
+@-webkit-keyframes type {
+ from {
+   width: 0;
+ }
+}
+span {
+  animation: blink 1s infinite;
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.to {
+ align-content: flex-start ;
+ margin-left: 20px;
+ width: 250px ;
+height: 200px;
+}
+ .to p {
+   border-radius: 25px;
+   border: 5px solid green;
+   text-align: center;
+   padding: 20px;
+   font-family: sans-serif;
+   color: black;
+   width: 308px;
+   margin-left: 80px;
+   margin-bottom: 100px;
+   background-color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+ }
+ .pool {
+  margin: 0;
+  width: 100%;
+  border-radius: 25px;
+}
+   button {
+background: none;
+border: 1px solid #3498db
+color: 3498db;
+cursor: pointer;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+font-family: Sans-serif;
+font-size: 16px;
+margin-right: 20px;
+margin-left: auto;
+margin-top: 0px;
+transition: 0.8s;
+position: relative;
+  }
+.btn::before{
+content: "";
+position: absolute;
+left: 0;
+width: 100%;
+height: 0%
+background:#3498db;
+z-index: -1;
+transition: 0.8;
+}
+.button:hover {
+color: #3498db;
+box-shadow: 0 5px 15px #3498db;
+}
+.ro {
+width: 100%;
+text-align: center;
+background-image: url(earth1.png);
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.projecttext {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  border-radius: 25px;
+}
+.projecttext p {
+  text-align: center;
+  font-family; "Serif" ;
+  color: white;
+  font-size:30px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.buttoncar {
+  margin-top: 20px;
+  width: 700px;
+  margin-left: 10px;
+}
+.buttoncar::before{
+content: "";
+position: absolute;
+left: 0;
+width: 100%;
+height: 0%
+background:#FFFFFF;
+z-index: -1;
+transition: 0.8;
+}
+.buttoncar:hover {
+color: white;
+box-shadow: 0 5px 15px #FFFFFF;
+height: 100%;
+}
+.donutpng{
+ width: 100%;
+}
+.donut {
+  margin-top: 20px;
+  width: 700px;
+  margin-left: 10px;
+ }
+ .donut::before{
+ content: "";
+ position: absolute;
+ left: 0;
+ width: 100%;
+ height: 0%
+ background:#FFFFFF;
+ z-index: -1;
+ transition: 0.8;
+ }
+ .donut:hover {
+ color: white;
+ box-shadow: 0 5px 15px #FFFFFF;
+ }
+ .textanimation p {
+   margin-top: 150px;
+   text-align: center;
+   font-family; "Serif" ;
+   color: white;
+   font-size:30px;
+ }
+ .video {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+   margin-top: 100px;
+ }
